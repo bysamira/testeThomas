@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+}
+
+.img_header {
+    float: right;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+header a:hover {
+    color: red;
+}
+
+.nav-burger span{
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+.expand-btn {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #ffffff;
+    border-style: solid;
+    border-color: #ffffff;
+}
+
+.expand-content {
+    display: none;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+nav {
+    background-color: #fff;
+    color: #333;
+    padding: 10px;
+    text-align: left;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    color: red;
+}
+
+.nav_menu {
+    border: solid;
+    float: right;
+    padding: 25px;
+}
+
+/* Estilos do conteúdo principal */
+main {
+    padding: 20px;
+}
+
+.mainback {
+    background-color: #005CA4;
+    color: white;
+}
+
+/* Estilos da tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #fff;
+    color: black;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.linha_alinhamento {
+    text-align: left;
+}
+
+.img_simbolo {
+    filter: invert(99%) sepia(52%) saturate(5797%) hue-rotate(59deg) brightness(88%) contrast(85%);
+}
+
+td img {
+    width: 15px;
+}
+
+.icone {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    float: left;
+    font-size: 10px;
+}
+
+.verde {
+    background-color: #30d158;
+}
+
+.vermelho {
+    background-color: #ff3300;
+}
+
+.cinza {
+    background-color: #a5acbb;
+}
+
+/* Estilos do rodapé */
+.footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.img_footer {
+    float: left;
+}

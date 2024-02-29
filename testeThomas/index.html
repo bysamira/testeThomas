@@ -21,24 +21,33 @@
                 <span></span>
                 <span></span>
             </div>
-            <div class="nav-burger"><a href="https://www.fifa.com/fifaplus/pt/tournaments/mens/worldcup/canadamexicousa2026/qualifiers"><img src="./imagens/qualifiers.webp" alt="" style="width: 100px;"></a>
-            <a href="#">AFC</a>
-            <a href="#">CAF</a>
-            <a href="#">CONMEBOL</a>
-            <a href="#">COPA DO MUNDO DA FIFA 26™</a>
+            <div>
+                <a href="https://www.fifa.com/fifaplus/pt/tournaments/mens/worldcup/canadamexicousa2026/qualifiers"><img
+                        src="./imagens/qualifiers.webp" alt="" style="width: 100px;"></a>
+                <a href="#">AFC</a>
+                <a href="#">CAF</a>
+                <a href="#">CONMEBOL</a>
+                <a href="#">COPA DO MUNDO DA FIFA 26™</a>
+            </div>
         </header>
-        <nav>
-            <div class="menu1">
-                <button class="expand-btn" onclick="openClose('btn1')"><img
-                        src="https://digitalhub.fifa.com/transform/c24e39f2-e620-4f62-91d3-8e063c4419a6/Conmebol_logo_blue?io=transform:fill,height:56&quality=75"
-                        class="imgmenu"></img>
-                </button>
-                <div class="expand-content" id="btn1">
-                    <a href=""><p>RESUMO</p></a><br>
-                    <a href=""><p>RESULTADOS E CALENDÁRIO</p></a><br>
-                    <a href=""><p>CLASSIFICAÇÃO</p></a><br>
-                    <a href=""><p>PROCESSO DE CLASSIFICAÇÃO</p></a><br>
-                </div>
+        <nav class="menu1">
+            <button class="expand-btn" onclick="openClose('btn1')"><img
+                src="https://digitalhub.fifa.com/transform/c24e39f2-e620-4f62-91d3-8e063c4419a6/Conmebol_logo_blue?io=transform:fill,height:56&quality=75"></img>
+            </button>
+            <div class="expand-content" id="btn1">
+                <a href="">
+                    <p>RESUMO</p>
+                </a>
+                <a href="">
+                    <p>RESULTADOS E CALENDÁRIO</p>
+                </a>
+                <a href="">
+                    <p>CLASSIFICAÇÃO</p>
+                </a>
+                <a href="">
+                    <p>PROCESSO DE CLASSIFICAÇÃO</p>
+                </a>
+            </div>
         </nav>
         <main>
             <h2 class="mainback">CLASSIFICAÇÃO</h2>
@@ -283,22 +292,15 @@
                 </tbody>
             </table>
         </main>
-        <br><br><br><br>
+
         <div class="footer">
-            <div class="img_footer">
-                <a href="https://www.fifa.com/fifaplus/"><img src="./imagens/fifalogo.webp" alt=""
-                        style="width: 50px; padding: 20px;"></a>&emsp;&emsp;&emsp;&emsp;
-                <a href="https://twitter.com/FIFAcom"><img src="./imagens/twitterlogo.png" alt=""
-                        style="width: 25px; padding: 16px;"></a>
-                <a href="https://www.facebook.com/fifa"><img src="./imagens/facebooklogo (2).png" alt=""
-                        style="width: 17px; padding: 15px;"></a>
-                <a href="https://www.instagram.com/fifaworldcup/"><img src="./imagens/instagramlogo.png" alt=""
-                        style="width: 35px; padding: 11px;"></a>
-                <a href="https://www.youtube.com/FIFATV"><img src="./imagens/youtubelogo.png" alt=""
-                        style="width: 60px; padding: 0px;"></a>
-                <a href="https://www.tiktok.com/@fifaworldcup"><img src="./imagens/tiktoklogo.png" alt=""
-                        style="width: 50px; padding: 5px;"></a>
-            </div>
+            <a href="https://www.fifa.com/fifaplus/"><img src="./imagens/fifalogo.webp" class="img_fifa" alt=""></a>
+            &emsp;&emsp;&emsp;&emsp;
+            <a href="https://twitter.com/FIFAcom"><img src="./imagens/twitterlogo.png" class="img_rede"></a>
+            <a href="https://www.facebook.com/fifa"><img src="./imagens/facebooklogo (2).png" class="img_rede"></a>
+            <a href="https://www.instagram.com/fifaworldcup/"><img src="./imagens/instagramlogo.png" class="img_rede"></a>
+            <a href="https://www.youtube.com/FIFATV"><img src="./imagens/youtubelogo.png" class="img_rede"></a>
+            <a href="https://www.tiktok.com/@fifaworldcup"><img src="./imagens/tiktoklogo.png" class="img_rede"></a>
         </div>
 
         <script>
@@ -306,15 +308,14 @@
                 let expandContent = document.getElementById(menubotao);
                 console.log("ta aqui: " + menubotao);
                 if (
-                    expandContent.style.display === "none" ||
-                    expandContent.style.display === ""
-                ) {
+                    expandContent.style.display === "none") {
                     expandContent.style.display = "block";
                 } else {
                     expandContent.style.display = "none";
                 }
             }
         </script>
+    </div>
 </body>
 
 </html>

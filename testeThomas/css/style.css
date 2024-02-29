@@ -1,3 +1,4 @@
+/*ConfigGlobal*/
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -40,17 +41,14 @@ header a:hover {
 
 .expand-btn {
     padding: 10px;
-    font-size: 16px;
     cursor: pointer;
-    background: #ffffff;
-    border-style: solid;
-    border-color: #ffffff;
+    background: none;
+    border: none;
 }
 
 .expand-content {
     display: none;
     padding: 20px;
-    background-color: #ffffff;
 }
 
 nav {
@@ -93,7 +91,6 @@ main {
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-bottom: 20px;
 }
 
 th,
@@ -152,12 +149,12 @@ td img {
 /* Estilos do rodapé */
 .footer {
     background-color: #1a1a1a;
-    color: #fff;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    padding: 10px;
 }
-
-.img_footer {
-    float: left;
+.img_fifa {
+    width: 80px;
+}
+.img_rede {
+    height: 30px;
+    margin-right: 15px;
 }
